@@ -1,0 +1,33 @@
+{
+  "name": "@learnwise/common",
+  "version": "1.0.0",
+  "description": "A common utility package for Learnwise projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "learnwise",
+    "common",
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rithick574/learnwise-common.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "rithick.panoor574@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
