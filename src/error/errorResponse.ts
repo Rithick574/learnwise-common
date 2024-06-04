@@ -15,6 +15,10 @@ export default class ErrorResponse extends Error {
     static unauthorized(msg: string): ErrorResponse {
      return new ErrorResponse(401, msg || "Unauthorized");
     }
+
+    static paymentRequired(msg: string): ErrorResponse {
+        return new ErrorResponse(402, msg || "Payment Required");
+    }
    
     static forbidden(msg: string): ErrorResponse {
      return new ErrorResponse(403, msg || "Forbidden");
